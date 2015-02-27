@@ -1,0 +1,1 @@
+These are interesting DWARF files, where interesting means they expose different code paths in the version of libdwarf available in early 2015. These files were obtained by fuzzing with [AFL](http://lcamtuf.coredump.cx/afl/). They can be used for testing software that handles DWARF files. These files also likely exercise interesting paths in tools that handle ELF files.
